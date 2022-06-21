@@ -65,3 +65,11 @@ newFireDF.select("PrimaryAction").where(col("CivilianFatalities")>0).groupBy("Pr
 
 import org.apache.spark.sql.{functions => F}
 newFireDF.select(F.sum("NumberOfAlarms"), F.avg("CivilianFatalities"), F.min("CivilianFatalities"), F.max("CivilianFatalities")).show()
+
+// COMMAND ----------
+
+// MAGIC %python
+// MAGIC print('git_commit_add_on')
+
+// COMMAND ----------
+
