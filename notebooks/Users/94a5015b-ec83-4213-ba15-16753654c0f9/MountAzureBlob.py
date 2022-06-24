@@ -92,3 +92,7 @@ except Exception as e:
 
 # COMMAND ----------
 
+print("testing CI")
+
+# COMMAND ----------
+
